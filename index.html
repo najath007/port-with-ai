@@ -3,54 +3,76 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Muhammed Najath | Portfolio</title>
-    <link rel="stylesheet" href="index.css" />
+    <title>Muhammed Najath | Creative Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main class="portfolio">
-      <section class="hero card">
-        <p class="tag">Portfolio</p>
-        <h1>Muhammed Najath</h1>
-        <p class="subtitle">BSc Psychology Graduate</p>
-      </section>
+    <div class="bg-orb orb-one" aria-hidden="true"></div>
+    <div class="bg-orb orb-two" aria-hidden="true"></div>
 
-      <section class="about card">
+    <main class="portfolio">
+      <header class="hero glass">
+        <p class="eyebrow">Creative Portfolio</p>
+        <h1>
+          Hi, I’m <span class="accent">Muhammed Najath</span>
+        </h1>
+        <p class="intro">
+          A 22-year-old <strong>BSc Psychology</strong> graduate passionate about people,
+          communication, and meaningful growth.
+        </p>
+        <div class="quick-meta">
+          <span>🎓 BSc Psychology</span>
+          <span>🌍 4 Languages</span>
+          <span>📍 India</span>
+        </div>
+      </header>
+
+      <section class="glass card">
         <h2>About Me</h2>
-        <ul>
+        <p>
+          I enjoy understanding people, listening deeply, and creating positive impact through
+          empathy and clear communication.
+        </p>
+        <ul class="details">
           <li><strong>Age:</strong> 22</li>
           <li><strong>Degree:</strong> BSc Psychology</li>
-          <li><strong>Languages:</strong> English, Hindi, Malayalam, Arabic</li>
         </ul>
       </section>
 
-      <section class="contact card">
-        <h2>Contact</h2>
-        <ul>
-          <li>
-            <strong>Email:</strong>
-            <a href="mailto:muhammednajath11@gmail.com">muhammednajath11@gmail.com</a>
-          </li>
-          <li>
-            <strong>Phone:</strong>
-            <a href="tel:+918547533754">+91 85475 33754</a>
-          </li>
-          <li>
-            <strong>GitHub:</strong>
-            <a href="https://github.com/najath007" target="_blank" rel="noopener noreferrer"
-              >github.com/najath007</a
-            >
-          </li>
-          <li>
-            <strong>LinkedIn:</strong>
-            <a
-              href="https://www.linkedin.com/in/muhammed-najath-b466a63b1"
-              target="_blank"
-              rel="noopener noreferrer"
-              >linkedin.com/in/muhammed-najath-b466a63b1</a
-            >
-          </li>
-        </ul>
+      <section class="glass card">
+        <h2>Languages I Speak</h2>
+        <div class="chips" role="list" aria-label="Languages">
+          <span role="listitem">English</span>
+          <span role="listitem">Hindi</span>
+          <span role="listitem">Malayalam</span>
+          <span role="listitem">Arabic</span>
+        </div>
       </section>
+
+      <section class="glass card contact">
+        <h2>Contact</h2>
+        <a href="mailto:muhammednajath11@gmail.com">📧 muhammednajath11@gmail.com</a>
+        <a href="tel:+918547533754">📞 +91 85475 33754</a>
+        <a href="https://github.com/najath007" target="_blank" rel="noopener noreferrer"
+          >💻 github.com/najath007</a
+        >
+        <a
+          href="https://www.linkedin.com/in/muhammed-najath-b466a63b1"
+          target="_blank"
+          rel="noopener noreferrer"
+          >🔗 linkedin.com/in/muhammed-najath-b466a63b1</a
+        >
+      </section>
+
+      <footer class="footer-note">
+        <p>“Understanding minds, building connections, and growing every day.”</p>
+      </footer>
     </main>
   </body>
 </html>
